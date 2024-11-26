@@ -16,7 +16,7 @@ Welcome to the **R Programming Repository**! This repository is dedicated to var
 ---
 
 ## **Getting Started**
-- **Let's start This awesome journey together**:
+- **Let's start This awesome journey together**
 
 
 
