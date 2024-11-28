@@ -4,7 +4,7 @@
 
 ## About This Repository
 
-Welcome to the **R Programming Repository**! This repository is dedicated to various R programming techniques, data analysis workflows, and statistical modeling approaches. Whether you're new to R or a seasoned user, you'll find scripts and examples here to enhance your understanding of R's powerful capabilities.
+Welcome to the **R Programming Repository**! This repository is created by **Dr.Asmaa Mohamed Reda** and it is dedicated to various R programming techniques, data analysis workflows, and statistical modeling approaches. Whether you're new to R or a seasoned user, you'll find scripts and examples here to enhance your understanding of R's powerful capabilities.
 
 ---
 
