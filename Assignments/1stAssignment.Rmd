@@ -1,0 +1,91 @@
+---
+title: "1st Assignment"
+author: "Asmaa Reda"
+date: "2025-05-09"
+output: html_document
+---
+
+# Assignment 1: R Programming - DNA Sequences and Physics Application
+
+## Section 1: Working with DNA Sequences (Variables & Vectors)
+
+### Q1. For a short segment of artificial DNA sequence data:
+
+Sequence 1: `"AGTCCG"`
+
+Sequence 2: `"CGTAAA"`
+
+**1.a.** Create two variables, `seq1` and `seq2`, to store the given DNA sequences.
+
+**1.b.** Combine these two sequences into a single sequence and store it in a new variable called `combined_seq`.
+
+**1.c.** Create a vector `all_seqs` that contains both original sequences as its elements.
+
+---
+
+### Q2. Assume we are working with the following single nucleotide polymorphisms (SNPs):
+Represented as different alleles at specific positions:
+
+- SNP1: A, T
+- SNP2: C, G
+- SNP3: G, A
+- SNP4: T, C
+
+**Task:** Create four variables: `snp1`, `snp2`, `snp3`, and `snp4`. Each variable should store a vector representing the alleles for that SNP.
+
+---
+
+### Q3. If you have the MCL1 gene with the following sequence:
+
+```
+atcttataataataggaggagcccccaggagannnnnnnnnnnnnnnuaa
+```
+
+**a.** Clean this sequence: convert to uppercase and remove ambiguous nucleotides (e.g., `n`).
+
+**b.** Extract the start and stop codons from this sequence.
+
+**c.** Count how many nucleotides are in the MCL1 gene before and after cleaning.
+
+**d.** Get the complementary strand for the cleaned MCL1 gene and transcribe it to RNA.
+
+---
+
+## Section 2: Kinematics in R - Solving for Acceleration
+
+The equation for displacement in physics is:
+
+```
+s = ut + 1/2 * a * t^2
+```
+
+Rearranged to solve for acceleration `a`:
+
+```
+a = 2 * (s - u * t) / t^2
+```
+
+### Define variables and calculate the value of `a` in R:
+
+```r
+# Initial values
+u <- 10    # initial velocity in m/s
+t <- 5     # time in seconds
+s <- 200   # displacement in meters
+
+# Compute acceleration
+a <- (2 * (s - u * t)) / (t^2)
+
+# Output the result
+cat("The acceleration is:", a, "m/s^2\n")
+```
+
+Expected Output:
+```
+The acceleration is: 4 m/s^2
+```
+
+---
+
+### Keywords
+DNA Sequences, SNPs, R Programming, Kinematics, Bioinformatics, Vector Operations, String Manipulation
